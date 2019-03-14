@@ -15,5 +15,10 @@
 			"matches": ["*://*.twitter.com/SFFakeNews/*"],
 			"js": ["who-engaged.js"]
 		}
+	],
+
+	"permissions": [
+		"activeTab",
+		"clipboardWrite"
 	]
 }
