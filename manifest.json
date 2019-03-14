@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "Who Engaged?",
+	"version": "0.1",
+
+	"description": "Copies to the clipboard Twitter IDs of users who liked/retweeted a tweet.",
+
+	"icons": {
+		"48": "icons/whoengaged_48.png",
+		"96": "icons/whoengaged_96.png"
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["*://*.twitter.com/SFFakeNews/*"],
+			"js": ["who-engaged.js"]
+		}
+	]
+}
