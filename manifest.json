@@ -20,5 +20,10 @@
 	"permissions": [
 		"activeTab",
 		"clipboardWrite"
-	]
+	],
+
+	"browser_action": {
+		"default_icon": "icons/whoengaged_32",
+		"default_title": "Click to copy Twitter IDs to clipboard."
+	}
 }
